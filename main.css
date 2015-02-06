@@ -17,3 +17,10 @@ nav ul {
 nav li {
 	display: inline;
 }
+
+.quoting {
+	font-style: italic; /* italic, normal */
+	text-align: center; /* left, center, right, justify*/
+	font-family: arial, sans-serif;
+	font-size: 1.5rem;
+}
