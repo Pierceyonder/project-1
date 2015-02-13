@@ -3,6 +3,9 @@ html {
 	background-color: #white;
 }
 
+a:hover {
+	color:#ff3252;
+}
 	h1 {
 	color: #b32f52;
 	font-weight: normal;
