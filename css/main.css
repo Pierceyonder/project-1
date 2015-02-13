@@ -11,10 +11,8 @@ html {
 	text-align: center;
 	margin: 0;
 	padding: 0em 0em 0.5em 0em;
-	display: inline-block;
 	background-color: #fee33f;
 	font-family: 'Sigmar One', cursive;
-
 }
 
 h2 {
@@ -26,6 +24,13 @@ h2 {
 	margin: 0;
 	padding: 0em 0em 0.5em 0em;
 	font-family: 'Sigmar One', cursive;
+	border: 5px;
+  border-style: solid;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-color: #fee33f;
+
 }
 
 h3 {
@@ -69,7 +74,7 @@ dt {
 }
 
 figure {
-  border: 5px;
+  border: 2px;
   border-style: solid;
   border-radius: 10px;
   padding: 1em;
@@ -83,4 +88,35 @@ figure {
 header {
 		background-color: #fee33f;
 		padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+ol li a {
+	display:inline-block;
+	padding: 0.5em 0.75em;
+	background-color: #b1a129;
+	color: white
+}
+
+footer {
+  background-color: #fee33f;
+  padding: 1em;
+  margin: 0;
+  color: #703838;
+  font-size: 0.7em;
+  text-align: center;
 }
