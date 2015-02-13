@@ -85,6 +85,11 @@ figure {
   text-align: center;
   color: black;
   border-color: #bfaf0e;
+}
+
+img{
+width: 100%;
+}
 
 }
 
